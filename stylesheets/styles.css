@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 .head {
-    font: bold;
+    font-weight: bold;
     font-family: 'Lato', sans-serif;
     color: #0bb31e;
 
