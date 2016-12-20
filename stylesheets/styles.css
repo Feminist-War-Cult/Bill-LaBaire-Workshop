@@ -1,14 +1,14 @@
 
 .head {
-    color: blue;
+    color: green;
 
 }
 
 .text {
-    color: white;
+    color: black;
 }
 
 .text a:hover {
-    background-color: yellow;
+    background-color: green;
 }
   
