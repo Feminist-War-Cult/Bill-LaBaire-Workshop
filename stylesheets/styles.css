@@ -9,6 +9,8 @@
 
 .text {
     color: black;
+    text-indent: 75px;
+    display: block;
 }
 
 .text:hover {
