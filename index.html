@@ -8,7 +8,12 @@
 <meta charset="utf-8">
 <title>Bill LaBaire Workshop</title>
 </head>
-
+<script>
+function startupSearch() {
+    alert("SEARCH XP IS STARTING UP...");
+    document.getElementById('meme').play();
+}
+</script>
 <header>
   
   
@@ -29,7 +34,7 @@
       <a href="#" class="btn btn-default" role="button">STORES</a>
       <a href="#" class="btn btn-default" role="button">PLAY</a>
       <a href="#" class="btn btn-default" role="button">DISCOVER</a>
-      <a href="#" class="btn btn-default" role="button" onclick="document.getElementById('meme').play()"><span class="glyphicon glyphicon-search"></span></a>
+      <a href="#" class="btn btn-default" role="button" onclick="startupSearch()"><span class="glyphicon glyphicon-search"></span></a>
     </div>
     
     
@@ -37,9 +42,6 @@
 </header>
 
 <body background="assets/bkround">
-  <div class="col-sm-5">
-  <p class="text">Bill LaBaire Workshop, Where your website dreams become a reality.</p>
-  </div>
   <audio id="meme">
     <source src="https://raw.githubusercontent.com/Feminist-War-Cult/FeministWarCult/master/assets/Windows%20XP%20startup%20earrape.mp3">
   </audio>
