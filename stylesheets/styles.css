@@ -16,4 +16,8 @@
 .text:hover {
     color: #0bb31e;
 }
-  
+ 
+.header {
+    position: relative;
+    left: 30px;
+}
